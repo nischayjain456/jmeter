@@ -1,0 +1,3 @@
+long currentTimeMillis = System.currentTimeMillis();
+log.info("new serial key is " + "SR"+currentTimeMillis);
+vars.put("serial", "SR"+currentTimeMillis);
